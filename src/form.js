@@ -103,7 +103,7 @@ const Form = () => {
                             <input
                                 type="radio"
                                 name="attendance"
-                                value="Not Sure"
+                                value="Je ne suis pas encore sûr."
                                 className="w-4"
                                 onChange={handleRadioChange}
                             />
