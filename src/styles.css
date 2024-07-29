@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .card {
   @apply bg-white rounded overflow-hidden shadow-md relative;
 }
@@ -13,4 +12,17 @@
 
 .btn {
   @apply rounded-full py-2 px-3 uppercase font-bold cursor-pointer tracking-wider;
+}
+
+.custom-radio {
+  @apply w-6 h-6 border-2 border-gray-300 rounded-full mr-2 cursor-pointer relative flex items-center justify-center;
+}
+.custom-radio.checked {
+  /* Change the border and background color when checked */
+  @apply border-green-500 bg-green-500;
+}
+.custom-radio.checked::after {
+  /* Style the inner circle */
+  @apply block w-3 h-3 bg-red-600 rounded-full;
+  content: ''; /* Add this line to ensure the ::after pseudo-element is displayed */
 }

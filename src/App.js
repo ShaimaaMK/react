@@ -30,6 +30,7 @@ function App() {
           .then(() => {
             btn.value = 'Send Email';
             alert('Sent!');
+            setShowForm(false)
           }, (err) => {
             btn.value = 'Send Email';
             alert(JSON.stringify(err));

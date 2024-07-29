@@ -13,6 +13,11 @@ module.exports = {
           200: '#d2ad32',
         },  
       },
+      width: {
+        'cc': '550px',
+        'c1': '18px',
+        's1': '197px',
+      },
     },
   },
   plugins: [],
