@@ -59,7 +59,7 @@ const renderer = ({ days, hours, minutes, seconds }) => {
 const DateComponent = () => {
   return (
     <div className="container mx-auto px-4 text-center">
-      <h1 className="font-esthetic py-3" style={{ fontSize: '2rem' }}>Temps jusqu'à l'événement</h1>
+      <h1 className="font-esthetic py-3" style={{ fontSize: '2rem' }}>Compte à rebours</h1>
       <Countdown date={new Date('2024-10-26T16:00:00')} renderer={renderer} />
       <section className="py-5" id="deplacement">
         <div className="container mx-auto px-4">
