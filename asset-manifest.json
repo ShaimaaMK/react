@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wed/static/css/main.0ba63849.css",
+    "main.js": "/wed/static/js/main.b7ef84d2.js",
+    "static/js/453.c4eaef64.chunk.js": "/wed/static/js/453.c4eaef64.chunk.js",
+    "static/media/cathedrale.jpg": "/wed/static/media/cathedrale.8f6bf8d4b8a1949e899e.jpg",
+    "static/media/jardin-des-plantes.jpg": "/wed/static/media/jardin-des-plantes.d70b8108d228fd9cdaea.jpg",
+    "static/media/terra-botanica.jpg": "/wed/static/media/terra-botanica.3e41e362fab21ba193d5.jpg",
+    "static/media/musee.jpg": "/wed/static/media/musee.67eb60ffe536cb55d92e.jpg",
+    "static/media/balade.webp": "/wed/static/media/balade.efa51daafb52b30ff073.webp",
+    "static/media/couple.jpg": "/wed/static/media/couple.fba1168d7a248134ee5e.jpg",
+    "static/media/chateau.jpg": "/wed/static/media/chateau.5993df4c241f3fabbeb2.jpg",
+    "index.html": "/wed/index.html",
+    "main.0ba63849.css.map": "/wed/static/css/main.0ba63849.css.map",
+    "main.b7ef84d2.js.map": "/wed/static/js/main.b7ef84d2.js.map",
+    "453.c4eaef64.chunk.js.map": "/wed/static/js/453.c4eaef64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ba63849.css",
+    "static/js/main.b7ef84d2.js"
+  ]
+}
