@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.0ba63849.css",
-    "main.js": "/react/static/js/main.cc10cdb9.js",
+    "main.css": "/react/static/css/main.d3fd3412.css",
+    "main.js": "/react/static/js/main.5c45a3a8.js",
     "static/js/453.c4eaef64.chunk.js": "/react/static/js/453.c4eaef64.chunk.js",
     "static/media/cathedrale.jpg": "/react/static/media/cathedrale.8f6bf8d4b8a1949e899e.jpg",
     "static/media/jardin-des-plantes.jpg": "/react/static/media/jardin-des-plantes.d70b8108d228fd9cdaea.jpg",
     "static/media/terra-botanica.jpg": "/react/static/media/terra-botanica.3e41e362fab21ba193d5.jpg",
+    "static/media/maria.jpeg": "/react/static/media/maria.92e3784ceb191ee228df.jpeg",
+    "static/media/up.jpeg": "/react/static/media/up.83993b4517d838573f75.jpeg",
     "static/media/musee.jpg": "/react/static/media/musee.67eb60ffe536cb55d92e.jpg",
     "static/media/balade.webp": "/react/static/media/balade.efa51daafb52b30ff073.webp",
-    "static/media/couple.jpg": "/react/static/media/couple.fba1168d7a248134ee5e.jpg",
     "static/media/chateau.jpg": "/react/static/media/chateau.5993df4c241f3fabbeb2.jpg",
     "index.html": "/react/index.html",
-    "main.0ba63849.css.map": "/react/static/css/main.0ba63849.css.map",
-    "main.cc10cdb9.js.map": "/react/static/js/main.cc10cdb9.js.map",
+    "main.d3fd3412.css.map": "/react/static/css/main.d3fd3412.css.map",
+    "main.5c45a3a8.js.map": "/react/static/js/main.5c45a3a8.js.map",
     "453.c4eaef64.chunk.js.map": "/react/static/js/453.c4eaef64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ba63849.css",
-    "static/js/main.cc10cdb9.js"
+    "static/css/main.d3fd3412.css",
+    "static/js/main.5c45a3a8.js"
   ]
 }
