@@ -3,7 +3,6 @@ import emailjs from 'emailjs-com';
 
 const Form = () => {
     const [attendance, setAttendance] = useState('');
-    const [attendanceGuest, setAttendanceGuest] = useState('');
     const [food, setFood] = useState(false);
     const [foodText, setFoodText] = useState('');
     const [count, setCount] = useState(0);
@@ -23,14 +22,6 @@ const Form = () => {
         setFoodText(event.target.value);
     };
 
-    const handleGuestChangeYes = () => {
-        setAttendanceGuest('yes there is one i would like to invite ');
-    };
-
-    const handleGuestChangeNo = () => {
-        setAttendanceGuest('no im coming alone');
-    };
-
     const handleIncrement = () => {
         if (count < 1) {
             setCount(count + 1);
@@ -47,7 +38,8 @@ const Form = () => {
         event.preventDefault();
         setIsSubmitting(true);
 
-        emailjs.sendForm('service_mloo4lo', 'template_mds0cq4', event.target, 'jFSRPrfZUOgWblCeU')
+        const form = event.target;
+        emailjs.sendForm('service_mloo4lo', 'template_mds0cq4', form, 'jFSRPrfZUOgWblCeU')
             .then((result) => {
                 console.log(result.text);
                 alert('Sent!');
@@ -160,7 +152,7 @@ const Form = () => {
                                 type="text"
                                 placeholder="Restrictions alimentaires"
                                 value={foodText}
-                                name="foodIs"
+                                name="foodText"
                                 onChange={handleFoodTextChange}
                             />
                         </div>
@@ -175,7 +167,6 @@ const Form = () => {
                             type="button"
                             className="bg-gray-200 p-2 rounded border border-yellow-600 shadow-sm focus:shadow-outline focus:border-yellow-700"
                             onClick={handleDecrement}
-                            onChange={handleGuestChangeNo}
                         >
                             -
                         </button>
@@ -184,7 +175,6 @@ const Form = () => {
                             type="button"
                             className="bg-gray-200 p-2 rounded border border-yellow-600 shadow-sm focus:shadow-outline focus:border-yellow-700"
                             onClick={handleIncrement}
-                            onChange={handleGuestChangeYes}
                         >
                             +
                         </button>

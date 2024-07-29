@@ -22,7 +22,7 @@ const Navbar = () => {
                 <li className="flex flex-col items-center">
                     <Link to="/activities" className="flex flex-col items-center">
                         <BiGroup />
-                        <span>Activities</span>
+                        <span>Activitiés</span>
                     </Link>
                 </li>
                 <li className="flex flex-col items-center">

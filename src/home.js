@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import cop from "./img/m.jpeg"; 
+import maria from "./img/maria.jpeg"; 
+import benimellal from "./img/up.jpeg";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -10,9 +11,10 @@ const Home = () => {
 
     return (
         <div className="flex items-center justify-center p-4 bg-gray-100 min-h-screen">
-            <div className="flex flex-col sm:flex-row sm:w-[1100px] sm:h-[498px] w-full h-auto">
-                <div className="w-full sm:w-[550px] h-[300px] sm:h-full flex-shrink-0">
-                    <img src={cop} alt="Ceremony" className="w-full h-full object-contain rounded-lg shadow-lg" />
+            <div className="flex flex-col sm:flex-row sm:w-[1100px] sm:h-[600px] w-full h-auto">
+                <div className="w-full sm:w-[550px] h-[300px] sm:h-full flex-shrink-0 flex flex-col justify-center">
+                    <img src={maria} alt="Maria" className="w-full h-1/2 object-cover rounded-lg shadow-lg mb-4" />
+                    <img src={benimellal} alt="Benimellal" className="w-full h-1/2 object-cover rounded-lg shadow-lg" />
                 </div>
                 <div className="w-full sm:w-[550px] h-auto sm:h-full bg-white p-6 rounded-lg shadow-lg flex flex-col justify-center items-center">
                     <h3 className="text-3xl text-gray-800 mb-4 text-center">Nous allons nous dire oui, soyez là pour en témoigner!</h3>
